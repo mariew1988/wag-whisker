@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+	margin: 0px;
+	background-color: #edf6f5;
+	font-family: "Lato", sans-serif;
+}
+
+.container {
+	width: 70%;
+	padding: 0 1rem;
+	margin: auto;
+	text-align: center;
+}
+
+.hero-img {
+	max-width: 70%;
+	text-align: center;
+	margin: 1rem;
+	border-radius: 10px;
+}
+
+header {
+	display: flex;
+	background-color: #1e8a8a;
+	color: #ffffff;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	color: #ffffff;
+	gap: 10px;
+	justify-content: space-evenly;
+}
+
+.offers {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.cards {
+	border: 1px solid #ffc94d;
+	border-radius: 15px;
+	padding: 1rem;
+	flex: 0 0 150px;
+	background-color: #ffffff;
+	text-align: left;
+	color: #14313a;
+}
+
+.nail {
+	flex: 0 0 125px;
+}
+.price {
+	color: #1e8a8a;
+}
+
+.tags {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+	gap: 15px;
+}
+
+.button {
+	padding: 5px 10px;
+	background-color: #ffc94d;
+	border-radius: 20px;
+}
+
+footer {
+	display: flex;
+	gap: 3rem;
+	justify-content: space-between;
+	color: white;
+	background-color: #14313a;
+	font-size: 0.7rem;
+}
+
+.detail {
+	color: #ffffff;
+	font-weight: 300;
+}
+
+h1,
+h2 {
+	font-family: "Fredoka", sans-serif;
+	color: #14313a;
+}
